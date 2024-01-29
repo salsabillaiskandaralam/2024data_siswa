@@ -33,5 +33,5 @@ export async function ambilDaftarSiswa (){
     retval.push({id: doc.id,nama:doc.data().nama});
    
    return retval; 
-  })
+  })i
 }
